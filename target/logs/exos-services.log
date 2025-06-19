@@ -1,0 +1,59 @@
+2025-06-19 12:28:23,410 INFO org.springframework.boot.StartupInfoLogger [main] Starting ExosServicesApplication v0.0.1-SNAPSHOT using Java 17.0.12 on LAPTOP-ULQRNFEM with PID 15076 (C:\Users\Avaneesh\Devops\target\services-0.0.1-SNAPSHOT.jar started by Avaneesh in C:\Users\Avaneesh\Devops\target)
+2025-06-19 12:28:23,423 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-19 12:28:23,432 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2025-06-19 12:28:28,711 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-19 12:28:28,923 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 161 ms. Found 2 JPA repository interfaces.
+2025-06-19 12:28:31,020 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8881 (http)
+2025-06-19 12:28:31,087 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8881"]
+2025-06-19 12:28:31,089 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2025-06-19 12:28:31,095 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-06-19 12:28:31,378 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-06-19 12:28:31,378 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7789 ms
+2025-06-19 12:28:31,679 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-06-19 12:28:32,147 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-06-19 12:28:32,171 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dcbapp'
+2025-06-19 12:28:32,556 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-19 12:28:32,771 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.7.Final
+2025-06-19 12:28:33,238 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-06-19 12:28:33,508 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-06-19 12:28:35,552 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-06-19 12:28:35,586 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-19 12:28:40,419 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-06-19 12:28:40,534 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8881"]
+2025-06-19 12:28:40,596 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8881 (http) with context path '/exos/services'
+2025-06-19 12:28:40,635 INFO org.springframework.boot.StartupInfoLogger [main] Started ExosServicesApplication in 19.8 seconds (JVM running for 21.572)
+2025-06-19 12:33:02,476 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-19 12:33:02,479 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-06-19 12:33:02,492 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-19 12:33:02,500 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-19 12:33:14,541 INFO org.springframework.boot.StartupInfoLogger [main] Starting ExosServicesApplication v0.0.1-SNAPSHOT using Java 17.0.12 on LAPTOP-ULQRNFEM with PID 532 (C:\Users\Avaneesh\Devops\target\services-0.0.1-SNAPSHOT.jar started by Avaneesh in C:\Users\Avaneesh\Devops\target)
+2025-06-19 12:33:14,552 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-19 12:33:14,570 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2025-06-19 12:33:19,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-19 12:33:19,885 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 253 ms. Found 2 JPA repository interfaces.
+2025-06-19 12:33:23,121 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8881 (http)
+2025-06-19 12:33:23,280 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8881"]
+2025-06-19 12:33:23,280 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2025-06-19 12:33:23,295 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-06-19 12:33:23,658 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-06-19 12:33:23,658 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 8930 ms
+2025-06-19 12:33:24,726 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-06-19 12:33:25,126 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-06-19 12:33:25,158 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dcbapp'
+2025-06-19 12:33:25,821 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-19 12:33:26,097 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.7.Final
+2025-06-19 12:33:27,048 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-06-19 12:33:27,484 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-06-19 12:33:30,419 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-06-19 12:33:30,432 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-19 12:33:34,677 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-06-19 12:33:34,722 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8881"]
+2025-06-19 12:33:34,785 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8881 (http) with context path '/exos/services'
+2025-06-19 12:33:34,815 INFO org.springframework.boot.StartupInfoLogger [main] Started ExosServicesApplication in 23.156 seconds (JVM running for 24.715)
+2025-06-19 12:41:47,438 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8881-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 12:41:47,440 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8881-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-19 12:41:47,444 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8881-exec-1] Completed initialization in 1 ms
+2025-06-19 12:45:45,159 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-19 12:45:45,163 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-06-19 12:45:45,186 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-19 12:45:45,200 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
