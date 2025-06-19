@@ -3,7 +3,7 @@ name: Build and Upload JAR
 on:
   push:
     branches:
-      - main
+      - main_develop
   workflow_dispatch:
 
 jobs:
@@ -20,8 +20,8 @@ jobs:
           distribution: 'temurin'   # Required!
           java-version: '17'
 
-      - name: Build with Maven
-        run: mvn clean install
+    #   - name: Build with Maven
+    #     run: mvn clean install
 
       # - name: Upload JAR to Azure Blob Storage
       #   env:
@@ -36,3 +36,4 @@ jobs:
       #       --file target/sampleapp-1.0-SNAPSHOT.jar \
       #       --sas-token "$AZURE_STORAGE_SAS_TOKEN" \
       #       --overwrite
+            

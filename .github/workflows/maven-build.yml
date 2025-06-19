@@ -3,7 +3,7 @@ name: Build and Upload JAR
 on:
   push:
     branches:
-      - main
+      - feature/upload-jar
   workflow_dispatch:
 
 jobs:
@@ -36,3 +36,4 @@ jobs:
       #       --file target/sampleapp-1.0-SNAPSHOT.jar \
       #       --sas-token "$AZURE_STORAGE_SAS_TOKEN" \
       #       --overwrite
+            
