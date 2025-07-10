@@ -14,7 +14,7 @@
 	<name>devops-sample</name>
 	<description>Exos Services</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 
